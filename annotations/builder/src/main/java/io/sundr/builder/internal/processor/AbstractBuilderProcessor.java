@@ -122,6 +122,7 @@ public abstract class AbstractBuilderProcessor extends JavaGeneratingProcessor {
                             Constants.DEFAULT_SOURCEFILE_TEMPLATE_LOCATION
                     );
                 }
+                System.gc();
             } catch (Exception e) {
                 //
             }
